@@ -1,0 +1,21 @@
+.grad{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(to left,red,blue);
+    background-image: linear-gradient(to bottom right,red,blue,green);
+    background-image: linear-gradient(90deg,red,blue);
+    margin: 10px;
+}
+
+.radial{
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+    margin: 10px;
+    background-image: radial-gradient(yellow,green);
+    background-image: radial-gradient(circle,yellow,green,blue);
+    background-image: radial-gradient(circle,yellow 2%,green 1%,blue);
+
+}
